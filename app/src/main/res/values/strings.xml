@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Gourmeturca</string>
+    <string name="online_groc">GOURMETURCA.COM</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="sign_in_with_apple">Sign in with Apple</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="don_t_have_an_account">Have an account?</string>
+    <string name="reset_password">Reset password</string>
+    <string name="create_new_acoount">Create new acoount</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="first_slide_title">Delicacy meets Grocery.</string>
+    <string name="second_slide_title">On Your Doorstep in Days .</string>
+    <string name="third_slide_title">Real, Authentic and Pure.</string>
+
+    <string name="first_slide_desc">We do not just sell products. We are sending the hospitality, flavors, culture of Anatolia to different places all over the world. So we are culture ambassadors.</string>
+    <string name="second_slide_desc">We do not just sell products. We are sending the hospitality, flavors, culture of Anatolia to different places all over the world. So we are culture ambassadors.</string>
+    <string name="third_slide_desc">We do not just sell products. We are sending the hospitality, flavors, culture of Anatolia to different places all over the world. So we are culture ambassadors.</string>
+
+
+    <string-array name="countryCodes">
+        <item>Choose your Country</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Croatia</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>England</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Korea Republic</item>
+        <item>Kuwait</item>
+        <item>Latvia</item>
+        <item>Liechtenstein</item>
+        <item>Lithuanian</item>
+        <item>Luxembourg</item>
+        <item>Macedonia</item>
+        <item>Malta</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Montenegro</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Poland</item>
+        <item>Porto Rico</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Saudi Arabia</item>
+        <item>Serbia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>United Arab Emirates</item>
+        <item>United States of America</item>
+    </string-array>
+
+</resources>

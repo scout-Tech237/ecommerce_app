@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.DashboardFragments.Cart">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_vertical"
+            android:id="@+id/top_header_cart"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/card_color"
+                app:cardElevation="2dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                >
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bell"/>
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:fontFamily="@font/poppins"
+                android:textSize="@dimen/_14sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cart"
+                android:textColor="#000000"
+                android:layout_gravity="center" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_gravity="right"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/card_color"
+                app:cardElevation="2dp"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                >
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/search_bar"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_header_cart">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cart_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_alignParentBottom="true">
+
+                    <Button
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:paddingHorizontal="@dimen/_30sdp"
+                        android:drawableRight="@drawable/creditcard"
+                        android:layout_marginVertical="@dimen/_5sdp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="@dimen/_45sdp"
+                        android:background="@drawable/green_btn"
+                        android:text="Checkout"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="8sp"
+                            android:textColor="@color/text_gay_color"
+                            android:text="Total"
+                            android:fontFamily="@font/poppins"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:textColor="@color/black"
+                            android:text="$120"
+                            android:fontFamily="@font/poppins_semibold"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</FrameLayout>

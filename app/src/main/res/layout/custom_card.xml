@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_140sdp"
+    android:layout_height="@dimen/_160sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="@dimen/_2sdp"
+    app:cardBackgroundColor="@color/card_color"
+    app:cardElevation="1dp">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_2sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_160sdp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/custom_add_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="@dimen/_1sdp"
+            android:layout_alignParentRight="true"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/plus_cart_first"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_add_24"
+                app:tint="@color/green_color" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/plus_minus_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="@dimen/_1sdp"
+            android:layout_alignParentRight="true"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_72sdp"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/add_one"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_add_24"
+                    app:tint="@color/green_color" />
+
+                <TextView
+                    android:id="@+id/item_count_number"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:tint="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/minus_one"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_horizontal_rule_24"
+                    app:tint="@color/green_color" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/add_fav"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="@dimen/_1sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/heart"
+                app:tint="@color/green_color" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/image_and_add_cart"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/custom_imageView"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/offre1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/custom_product_name"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_and_add_cart"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:autoSizeMaxTextSize="@dimen/_12sdp"
+            android:autoSizeMinTextSize="@dimen/_9sdp"
+            android:autoSizeStepGranularity="3sp"
+            android:autoSizeTextType="uniform"
+            android:maxLines="2"
+            android:maxLength="37"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins"
+            android:text="Opal Apple"
+            android:textColor="@color/black_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/custom_product_name"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/custom_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="$5.22"
+                android:textColor="@color/green_color"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:id="@+id/custom_price_no_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/custom_price_no_discount"
+                android:fontFamily="@font/poppins_medium"
+                android:text="$10.22"
+                android:textColor="@color/text_gay_color"
+                android:textSize="@dimen/_8sdp" />
+
+            <View
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/custom_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="@dimen/_8sdp"
+                android:autoSizeMinTextSize="@dimen/_6sdp"
+                android:autoSizeStepGranularity="1sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"
+                android:text="Brand"
+                android:textColor="@color/text_gay_color"
+                android:textSize="@dimen/_8sdp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

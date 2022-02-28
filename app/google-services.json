@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "920803445202",
+    "firebase_url": "https://gourmeturca-new-default-rtdb.firebaseio.com",
+    "project_id": "gourmeturca-new",
+    "storage_bucket": "gourmeturca-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920803445202:android:b7052407d391122a64e00b",
+        "android_client_info": {
+          "package_name": "com.example.gourmeturca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920803445202-c3os1bnseooifsg8uc9ic3ogsotkklvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH7oZRsZpq0aRHX_xUqH33liTyyCok2KM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920803445202-c3os1bnseooifsg8uc9ic3ogsotkklvg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "920803445202-4e4g3t8a3g5fbmnvqs13a9fa15uodu8o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Gourmeturca"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920803445202:android:281c52a6fe86bf4264e00b",
+        "android_client_info": {
+          "package_name": "com.gourmeturca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920803445202-oqb22jhrb3nd8f9obi708fnce4h8g59u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gourmeturca",
+            "certificate_hash": "c0ae73f21b0e601c55e1c5927a322e4fa38549f8"
+          }
+        },
+        {
+          "client_id": "920803445202-c3os1bnseooifsg8uc9ic3ogsotkklvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH7oZRsZpq0aRHX_xUqH33liTyyCok2KM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920803445202-c3os1bnseooifsg8uc9ic3ogsotkklvg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "920803445202-4e4g3t8a3g5fbmnvqs13a9fa15uodu8o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Gourmeturca"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920803445202:android:0f48f5b1e051e7d864e00b",
+        "android_client_info": {
+          "package_name": "com.gourmeturca.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920803445202-43180nckd8at1k9ugg4q4i74siik36eq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gourmeturca.android",
+            "certificate_hash": "3fc611498170f1d9058553f99af53aebf09d8fdd"
+          }
+        },
+        {
+          "client_id": "920803445202-c3os1bnseooifsg8uc9ic3ogsotkklvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH7oZRsZpq0aRHX_xUqH33liTyyCok2KM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920803445202-c3os1bnseooifsg8uc9ic3ogsotkklvg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "920803445202-4e4g3t8a3g5fbmnvqs13a9fa15uodu8o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Gourmeturca"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
